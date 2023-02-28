@@ -6,7 +6,9 @@
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild index.ts --bundle --platform=node  --outdir=./ --watch"
+    "build:watch": "esbuild index.ts --bundle --platform=node  --outdir=./ --watch",
+    "build": "esbuild index.ts --bundle --platform=node  --outdir=./",
+    "deploy": "./deploy.sh"
   },
   "repository": {
     "type": "git",
