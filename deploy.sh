@@ -8,6 +8,6 @@ git merge - --no-edit
 npm run build
 # Commit the build and return
 git add -A
-git commit -m "Build"
+git commit -m "Build" --allow-empty
 git push
 git checkout -
