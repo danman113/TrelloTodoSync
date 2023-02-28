@@ -1,0 +1,62 @@
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum sequi perferendis nostrum laudantium soluta molestiae?
+
+Possimus inventore sequi sunt ex magni dolorum, amet earum odio libero. Veniam, earum illo.
+
+  [x] Fix Controls
+    [x] Fix touch controls
+    [x] Fix drag controls
+    [ ] Add auto-zoom so that it's easier to play without panning
+  [x] Make a proper PC Port
+    [x] More detailed instructions
+    [x] Keyboard controls
+    [x] Get scrolling to work
+    [x] Make it so touchpad scrolling works
+    [ ] Add edge scrolling
+    [ ] Add options menu
+      [ ] Volume sliders
+      [x] Disable/Enable Touchpad Mode
+      [x] FPS Counter
+      [ ] Disable/Enable edge scrolling
+      [ ] Disable/Enable auto zoom
+      [x] Disable/Enable haptics 
+      [ ] Disable/Enable high DPI mode
+  [ ] Game Features
+    [x] Add a tile that adds more turns
+    [x] Add new resource distributions
+      [x] Really analyze resource distribution
+      [x] Make the game harder as the game progresses
+    [x] Add new maps
+      [x] Figure out how to import tiled maps
+    [x] Make map generation deterministic
+      [x] Add the option to share your current map with friends
+    [x] New Scene transition
+      [ ] Cleanup new scene transition
+    [x] Moving background for main menu
+    [x] Background image
+      [x] Gyroscope Parallax effect 
+    [ ] Add a main menu
+      [ ] Add option to manually change the seed
+      [ ] Play now button
+      [ ] Instructions button
+      [x] Options button
+    [x] Tutorial Mode
+    [x] Loading Screen
+    [ ] New Game Over Menu
+      [ ] One More Turn... button (same as retry today)
+      [ ] Back To Main Menu
+      [ ] Highscores
+    [ ] Local High Score
+    [ ] Online High Score
+  [ ] New Designs
+    [~] Main Menu
+    [x] InGame Score counters
+    [ ] Game Over Screen
+    [ ] Settings Menu
+    [~] Instructions Menu
+  [ ] Code Cleanup
+    [x] Clean up text rendering code
+    [x] Better button handling
+    [x] Better scene handling
+    [ ] Cleanup sharemode code
+
+Here's some Bottom Text

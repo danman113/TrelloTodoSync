@@ -1,0 +1,38 @@
+{
+  "name": "trello-todo-sync",
+  "version": "1.0.0",
+  "description": "Sync your in-file todo list to trello board",
+  "main": "index.ts",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.ts --bundle --platform=node  --outdir=./ --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danman113/TrelloTodoSync.git"
+  },
+  "keywords": [
+    "trello",
+    "todo"
+  ],
+  "author": "Daniel Berezin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danman113/TrelloTodoSync/issues"
+  },
+  "homepage": "https://github.com/danman113/TrelloTodoSync#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fetch-ponyfill": "^7.1.0",
+    "glob": "^8.1.0",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.1",
+    "@types/node": "^18.14.0",
+    "@types/prompts": "^2.4.2",
+    "esbuild": "^0.17.10",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,2 +1,2 @@
 # TrelloTodoSync
-Sync your in-file todo list to trello
+Sync your in-file todo list to trello board
